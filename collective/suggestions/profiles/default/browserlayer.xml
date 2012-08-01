@@ -1,0 +1,4 @@
+<layers>
+    <layer name="collective.suggestions"
+           interface="collective.suggestions.browser.interfaces.ILayer" />
+</layers>
