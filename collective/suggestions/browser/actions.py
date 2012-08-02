@@ -25,10 +25,10 @@ class SuggestActions(BrowserView):
                 view=view,
                 date=datetime.now())
 
-        if IFolderish(self.context):
+        if IFolderish.providedBy(self.context):
             IStatusMessage(self.request).addStatusMessage(
                         _("The folder has been added to suggestions"))
-        elif IContentish(self.context):
+        elif IContentish.providedBy(self.context):
             IStatusMessage(self.request).addStatusMessage(
                         _("The document has been added to suggestions"))
         else:
