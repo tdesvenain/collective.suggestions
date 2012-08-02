@@ -1,0 +1,16 @@
+#suggestion-button{
+	float: right;
+    margin: 0 0.5ex;
+}
+
+#suggestion-button a{
+    text-decoration: none;
+}
+
+.portlet-suggestions .portletItem a{
+	line-height: 2em;
+}
+
+#suggestion-button #suggestion-button-text{
+	display: none;
+}

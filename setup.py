@@ -7,7 +7,7 @@ setup(name='collective.suggestions',
       version=version,
       description="A plone portlet to display links suggested by webmasters",
       long_description=open("README.rst").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open("CHANGES.txt").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[

@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.suggestions">
+
+   <plone:portlet
+       name="collective.suggestions.portlet"
+       interface=".suggestions.ISuggestionsPortlet"
+       assignment=".suggestions.Assignment"
+       renderer=".suggestions.Renderer"
+       addview=".suggestions.AddForm"
+       />
+
+</configure>

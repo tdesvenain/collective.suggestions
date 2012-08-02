@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.suggestions\n"
-"POT-Creation-Date: 2010-11-10 11:05+0000\n"
+"POT-Creation-Date: 2012-08-01 21:49+0000\n"
 "PO-Revision-Date: 2010-11-13 11:07+0100\n"
 "Last-Translator: YOURNAME <name@email.com>\n"
 "Language-Team: French <plone-fr@lists.plone.org>\n"
@@ -16,3 +16,52 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.suggestions\n"
 "X-Is-Fallback-For: fr-be fr-ca fr-lu fr-mc fr-ch fr-fr\n"
+
+#: ./portlet/suggestions.py:89
+msgid "Add Suggestions Portlet"
+msgstr "Ajouter une portlet de suggestions"
+
+#: ./browser/switchsuggest.pt:5
+msgid "Add to suggested contents"
+msgstr "Ajouter aux contenus suggérés"
+
+#: ./browser/switchsuggest.pt:4
+msgid "Add/remove as suggested content:"
+msgstr "Ajouter/retirer des contenus suggérés"
+
+#: ./browser/switchsuggest.pt:16
+msgid "Remove from suggestions"
+msgstr "Retirer des suggestions"
+
+#: ./portlet/suggestions.py:28
+msgid "Suggested content"
+msgstr "À lire"
+
+#: ./portlet/suggestions.py:35
+msgid "Suggestions"
+msgstr "À lire"
+
+#: ./profiles/default/portlets.xml
+msgid "Suggestions portlet"
+msgstr "Portlet des suggestions"
+
+#: ./browser/actions.py:33
+msgid "The document has been added to suggestions"
+msgstr "Le document a été ajouté aux suggestions"
+
+#: ./browser/actions.py:36
+msgid "The element has been added to suggestions"
+msgstr "L'élément a été ajouté aux suggestions"
+
+#: ./browser/actions.py:47
+msgid "The element has been removed from suggestions"
+msgstr "L'élément a été retiré des suggestions"
+
+#: ./browser/actions.py:30
+msgid "The folder has been added to suggestions"
+msgstr "Le dossier a été ajouté aux suggestions"
+
+#: ./portlet/suggestions.py:90
+msgid "This portlet displays the documents webmasters have suggested."
+msgstr "Cette portlet affiche les documents suggérés par les animateurs du site."
+

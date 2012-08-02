@@ -1,0 +1,27 @@
+<div id="suggestion-button"
+     tal:define="template view/template|view/__name__|string:"
+     i18n:domain="collective.suggestions">
+  <span id="suggestion-button-text" i18n:translate="">Add/remove as suggested content:</span>
+  <a id="add-suggestion"
+     title="Add to suggested contents"
+     tal:condition="not:view/issuggestion"
+     tal:attributes="href string:${context/absolute_url}/add-suggestion?view=${template}"
+     i18n:attributes="title">
+    <img class="suggestion-on"
+         style="display: none;"
+         tal:attributes="src string:${view/portal_url}/suggestion-on.png" />
+    <img class="suggestion-off"
+         tal:attributes="src string:${view/portal_url}/suggestion-off.png" />
+  </a>
+  <a id="remove-suggestion"
+	 title="Remove from suggestions"
+	 tal:condition="view/issuggestion"
+	 tal:attributes="href string:${context/absolute_url}/remove-suggestion?view=${template}"
+	 i18n:attributes="title">
+    <img class="suggestion-on"
+         tal:attributes="src string:${view/portal_url}/suggestion-on.png" />
+    <img class="suggestion-off"
+         style="display: none;"
+         tal:attributes="src string:${view/portal_url}/suggestion-off.png" />
+  </a>
+</div>
